@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: kanaka
+  vmImage: windowAgent
 
 steps:
 - task: Maven@3
