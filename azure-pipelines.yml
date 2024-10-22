@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: kanaka
+  vmImage: 'kanaka'
 
 steps:
 - task: Maven@3
